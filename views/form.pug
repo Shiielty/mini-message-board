@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  h1= title
+  form(method="POST" action="/new")
+    div.inputs
+      label(for="user") Username:
+      input(type="text" id="user" name="user" placeholder="username")
+      label(for="message") Message:
+      input(type="text" id="message" name="message" placeholder="message...")
+    button(type="submit") Send
+
