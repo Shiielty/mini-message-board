@@ -1,7 +1,10 @@
 {
   "name": "mini-message-board",
-  "version": "0.0.0",
+  "description": "Simple message board built with Express and NodeJS",
+  "version": "0.1.0",
   "private": true,
+  "author": "Shiielty",
+  "repository": "https://github.com/Shiielty/mini-message-board",
   "scripts": {
     "start": "node ./bin/www",
     "devstart": "nodemon ./bin/www",
