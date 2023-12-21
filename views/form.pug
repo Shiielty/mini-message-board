@@ -2,10 +2,12 @@ extends layout
 
 block content
   h1= title
+  a(href="/") Back to board
   form(method="POST" action="/new")
     div.inputs
       label(for="user") Username:
       input(type="text" id="user" name="user" placeholder="username")
+    div.inputs
       label(for="message") Message:
       input(type="text" id="message" name="message" placeholder="message...")
     button(type="submit") Send
